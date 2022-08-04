@@ -1,10 +1,10 @@
 name: Deploy Node app on AWS Elastic Beanstalk
 
 env:
-  APP_NAME: sample-aws-deploy
-  EB_ENV_NAME: Sampleawsdeploy-prod
-  S3_BUCKET: sample-aws-deploy-bucket-gulraiz-98754
-  KP_NAME: assignment02-kp
+  APP_NAME: aws-deploy
+  EB_ENV_NAME: nodeapp-env
+  S3_BUCKET: node-app-s3-rehmat-elahi
+  KP_NAME: rehmat-node-sample
   AWS_REGION: us-east-1
   AWS_PLATFORM: Docker
   PIPELINE_ID: ${GITHUB_RUN_ID}-${GITHUB_RUN_NUMBER}
